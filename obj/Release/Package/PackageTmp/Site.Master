@@ -1,0 +1,130 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="TiendaVirtual.SiteMaster" %>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="Oscar Perez Lugo" content="Developer">
+        <meta name="description"  content="Una Experiencia Jebcpharma">
+        <meta name="keywords"  content="Carne, Pollo, Valencia, Venezuela">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JEBCPHARMA tienda</title>      
+        <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <link href="Content/Columnas.css" rel="stylesheet" /> 
+        <link href="Content/estilos.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+               
+    </head>
+    <body>
+        <form id="form1" runat="server">                
+            <nav  id="nave" class="fila fijador">
+                <div  class="col2L  col0M col0S col0T" >
+                    <a href="Default.aspx"><img id="logo" src="img/Recurso3.png" /></a>
+                </div>
+                <div id="barra" class="col4L col6M col6S col10T">
+                    <input class="col7L busqueda busquedaL busquedaM busquedaS" id="busqueda" type="text" placeholder="  Hoy estoy buscando..."/>
+                    <a id="searchfinal" class="fa fa-search searchbut" href="Bolivares.aspx" ></a>                   
+                </div>
+                <div id="registro" class="col1L  col1M col1S col2T">
+                    <div class="fila">
+                        <a href="Registro.aspx" id="registrobot" class="col10L">Registrarse</a>
+                    </div>
+                    <div class="fila">
+                        <a href="Login.aspx" id="sesion" class="col10L">Logín</a>
+                    </div>             
+                </div>
+                <div id="zona" class="col1L  col1M col1S col2T">
+                    <div class="fila">
+                        <a href="Zona.aspx" id="zonat" class="col10L">Zona</a>
+                    </div>
+                    <div class="fila">
+                        <a id="carabobo" href="Zona.aspx" class="col10L">Carabobo</a>
+                    </div>
+                </div>
+                <div id="moneda" class="col1L  col1M col1S col2T">
+                    <div class="fila">
+                        <a id="monedat" class="col10L">Moneda</a>
+                    </div>
+                    <div class="fila">                                        
+                        <a ID="Dolar" runat="server" class="col10L" href="Default.aspx">$/Bs.</a>                                        
+                    </div>
+                </div>                
+                    <div class="col1L  col1M col1S col2T" >
+                        <label for="checkdos" class="fa fa-shopping-cart" id="botoncarrito"><span></span></label>                      
+                    </div>                                                  
+            </nav>
+            <nav id="subnav" class="fila fijadordos fijadordosL fijadordosM fijadordosS">
+                <div class="col1L botonsub">
+                    <label class="fa fa-bars botonsub" for="check"><label class="botonsub" for="check"> Farmacia</label></label>
+                </div>
+                <div class="col7L">&nbsp;</div>
+                    <div class="col2L">
+                        <asp:Label id="nombrecliente" class="botonsub" runat="server" CssClass="botonsub"></asp:Label>
+                    </div>                
+            </nav> 
+            <div id="cajacontenedor" class="cajacontenedor cajacontenedorL cajacontenedorM cajacontenedorS"><asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder></div>
+            <input type="checkbox" class="checkbox" id="check"/> 
+            
+                <div class="leftpanel col3L col5M col7S col10T leftpanelL leftpanelM leftpanelS">                
+                    <asp:ListView ID="ListViewCat" runat="server">
+                        <ItemTemplate runat="server">
+                            <ul>
+                                <li class="botoncat"><label class="fa fa-check"></label><label ><%#Eval("Categoria") %></label></li>
+                            </ul>
+                        </ItemTemplate>
+                    </asp:ListView>
+            </div>
+            
+            <label class="panelbloqueadorizq panelbloqueadorizqL panelbloqueadorizqM panelbloqueadorizqS" for="check"></label>
+            <input type="checkbox" class="checkboxdos" id="checkdos"/>
+            <div class="rightpanel col4L col5M col7S col10T productscontainer rightpanelL rightpanelM rightpanelS"> 
+                <div class="productsheader col4L col5M col7S col10T fila">
+                    <h5 class="producttitle">PRODUCTO</h5>
+                    <h5 class="productprice">PRECIO</h5>
+                    <h5 class="quantity">CANTIDAD</h5>
+                    <h5 class="totalcost">TOTAL</h5>
+                </div>
+                
+                <div class="productslist col4L col5M col7S col10T">
+
+                </div>
+                <div class="closer">
+                    <p><asp:Label ID="Label1" runat="server" ></asp:Label></p>
+                    <p><asp:Label ID="Label2" runat="server" ></asp:Label></p>
+                    <p><asp:Label ID="Label3" runat="server" ></asp:Label></p>
+                    <p><c><a ID="Label4" class="botonfinalizar">FINALIZAR COMPRA</a></c></p>
+                </div>
+            </div>
+            <label class="panelbloqueador panelbloqueadorL panelbloqueadorM panelbloqueadorS" for="checkdos"></label>
+    <script src="Scripts/main.js"></script>
+          
+                <div class="fila">
+                    <div id="prefooter1" class="col10L">
+                        <h3>Utilidades</h3>
+                    </div> 
+        
+                    <div id="prefooter2" class="col10L">
+                        <div class="col1L">&nbsp;</div>                                                                          
+                        <a href="Somos.aspx" class="col1L botonfooter2">Preguntas frecuentes</a>                                
+                            <a href="Zona.aspx" class="col1L botonfooter2">Zonas de Reparto</a>                                
+                        <a href="Terminos.aspx" class="col1L botonfooter2">Términos y Condiciones</a>                
+                        <div class="col1L">&nbsp;</div>
+                    </div>           
+     
+                    <div id="prefooter3" class="col10L">
+                        <h3>Atención al Cliente</h3>
+                    </div>           
+           
+                    <div id="prefooter4" class="col10L">
+                        <h6>+58 424 452 25 93 atencion@jebcpharma Horario ATC: 8:00 am a 8:00 pm Horario de Entrega: 8:30 am a 10:00 pm En menos de 3 Horas, Gratis el mismo día</h6>
+                    </div>           
+                </div>
+        
+            <footer class="fila">
+                <h6>&#169; Corporación JEBC PHARMA, C.A. 2020,  Valencia - Carabobo. DESARROLLADO POR AVILA TECHNOLOGY</h6>
+            </footer>
+        </form>
+        <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    </body>    
+</html>
+ 

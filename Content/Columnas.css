@@ -1,0 +1,200 @@
+﻿[class*="col"] {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;     
+}
+@media(min-width:1200px) {
+    .col10L {
+        width: 100%;        
+    }
+
+    .col9L {
+        width: 90%;
+    }
+
+    .col8L {
+        width: 80%;
+    }
+
+    .col7L {
+        width: 70%;
+    }
+
+    .col6L {
+        width: 60%;
+    }
+
+    .col5L {
+        width: 50%;
+    }
+
+    .col4L {
+        width: 40%;
+    }
+
+    .col3L {
+        width: 30%;
+    }
+
+    .col2L {
+        width: 20%;
+    }
+
+    .col1L {
+        width: 10%;
+    }
+
+    .col0L {
+        display: none;
+    }
+}
+@media(max-width:1199px) and (min-width:992px) {
+    .col10M {
+        width: 100%;
+    }
+
+    .col9M {
+        width: 90%;
+    }
+
+    .col8M {
+        width: 80%;
+    }
+
+    .col7M {
+        width: 70%;
+    }
+
+    .col6M {
+        width: 60%;
+    }
+
+    .col5M {
+        width: 50%;
+    }
+
+    .col4M {
+        width: 40%;
+    }
+
+    .col3M {
+        width: 30%;
+    }
+
+    .col2M {
+        width: 20%;
+    }
+
+    .col1M {
+        width: 10%;
+    }
+
+    .col0M {
+        display: none;
+    }
+}
+@media(max-width:991px) and (min-width:768px) {
+    .col10S {
+        width: 100%;
+    }
+
+    .col9S {
+        width: 90%;
+    }
+
+    .col8S {
+        width: 80%;
+    }
+
+    .col7S {
+        width: 70%;
+    }
+
+    .col6S {
+        width: 60%;
+    }
+
+    .col5M {
+        width: 50%;
+    }
+
+    .col4S {
+        width: 40%;
+    }
+
+    .col3S {
+        width: 30%;
+    }
+
+    .col2S {
+        width: 20%;
+    }
+
+    .col1S {
+        width: 10%;
+    }
+
+    .col0S {
+        display: none;
+    }
+}
+@media(max-width:767px) {
+    .col10T {
+        width: 100%;
+    }
+
+    .col9T {
+        width: 90%;
+    }
+
+    .col8T {
+        width: 80%;
+    }
+
+    .col7T {
+        width: 70%;
+    }
+
+    .col6T {
+        width: 60%;
+    }
+
+    .col5T {
+        width: 50%;
+    }
+
+    .col4T {
+        width: 40%;
+    }
+
+    .col3T {
+        width: 30%;
+    }
+
+    .col2T {
+        width: 20%;
+    }
+
+    .col1T {
+        width: 10%;
+    }
+
+    .col0T {
+        display: none;
+    }
+}
+.fila {
+    position: relative;
+    margin: 0px;
+    width: 100%;
+    height: auto;
+    clear: both;
+    display: table;
+}
+.contenedor {
+    position: relative;
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+

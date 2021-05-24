@@ -1,0 +1,1086 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#barra .fa {
+    text-decoration: none;
+    color: white;
+    background-color: #0033a0;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 3.8;
+    margin-left: -14px;
+    border-radius: 0px 20px 20px 0px;
+}
+#barra .fa:hover{
+    background-color:gray;
+
+}
+#barra .fa:active{
+    background-color:white;
+}
+textbox {
+    margin: 0;
+    padding: 0;
+}
+LinkButton{
+    margin:0;
+    padding:0;
+}
+
+#nave {       
+    background-color: white;
+}
+#subnav {
+    background-color: #05c3dd;
+    color: white;
+    text-decoration: none;
+    padding: 10px 0px 10px 10px;
+    box-sizing: border-box;
+}
+.botonsub {
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+    font-family: 'Trebuchet MS';
+    
+}
+.botonfooter2 {
+    background-color: none;
+    color: white;
+    text-decoration: none;
+    font-family: 'Trebuchet MS';
+    padding:10px;
+}
+nav div{    
+    float: left;
+    
+}
+#logo{
+    margin:10px;
+    height:60px;
+    text-align:center;
+    line-height:60px;
+}
+
+
+.busqueda {
+    margin: 10px 10px 10px 10px;
+    height: 60px;
+    border-radius: 20px 0px 0px 20px;
+    font-size: 18px;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    border-color: #0033a0;
+}
+#botonbuscar {
+    margin: 10px 10px 10px -15px;
+    height: 60px;
+    width: 60px;
+    border-radius: 0px 20px 20px 0px;
+    font-size: 20px;
+    border-color: #0033a0;
+    background-color: #0033a0;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+.botonbodegon {
+    width: 200px;
+    margin: 20px;
+    color: white;
+    background-color: #0033a0;
+    border-radius: 20px;
+    border-color: black;
+    padding: 10px;
+    font-family: 'Trebuchet MS';
+    text-decoration: none;
+}
+.botonbodegon:hover {
+    background-color:gray;    
+}
+#botoncarrito {
+    height: 50px;
+    line-height: 50px;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 28px;
+    color: #0033a0;
+    padding: 10px;
+}
+#cliente {
+    height: 30px;
+    line-height: 30px;
+    margin: 10px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS';
+    font-size: 12px;
+    color: black;
+    padding: 10px;
+}
+#barra{
+    margin:0px; 
+}
+#botonbuscar:hover {
+    border-color: black;
+    background-color: gray;
+    color: black;
+}
+#botoncarrito:hover {
+    border-color: gray;
+    background-color: none;
+    color: gray;
+}
+#botoncarrito:active {
+    border-color: gray;
+    background-color: none;
+    color: white;
+}
+#registrobot {
+    height: 30px;
+    line-height: 30px;
+    margin: 10px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS';
+    font-size: 11px;
+    color: #0033a0;
+    padding: 10px;
+}
+#sesion {
+    height: 30px;
+    line-height: 30px;
+    margin: 10px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS';
+    font-size: 15px;
+    color: #0033a0;
+    font-weight: bold;
+    padding: 10px;
+}
+#zonat {
+    height: 30px;
+    line-height: 30px;
+    margin: 10px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS';
+    font-size: 11px;
+    color: #0033a0;
+    padding: 10px;
+}
+
+#carabobo {
+    height: 30px;
+    line-height: 30px;
+    margin: 10px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS';
+    font-size: 15px;
+    color: #0033a0;
+    font-weight: bold;
+    padding: 10px;
+}
+#monedat {
+    height: 30px;
+    line-height: 30px;
+    margin: 10px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS';
+    font-size: 11px;
+    color: #0033a0;
+    padding: 10px;
+}
+
+#Dolar {
+    height: 30px;
+    line-height: 30px;
+    margin: 10px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS';
+    font-size: 15px;
+    color: #0033a0;
+    font-weight: bold;
+    padding: 10px;
+}
+#Bolivar {
+    height: 30px;
+    line-height: 30px;
+    margin: 10px;
+    text-decoration: none;
+    font-family: 'Trebuchet MS';
+    font-size: 15px;
+    color: #0033a0;
+    font-weight: bold;
+    padding: 10px;
+}
+#prefooter1 {
+    text-align: center;
+    background-color: #05c3dd;
+    padding: 10px;
+    color: white;
+    font-family: 'Trebuchet MS';
+    margin: 0;
+}
+#prefooter3 {
+    text-align: center;
+    background-color: #05c3dd;
+    padding: 10px;
+    color: white;
+    font-family: 'Trebuchet MS';
+    margin: 0;
+}
+#prefooter4 {
+    text-align: center;
+    background-color: #05c3dd;
+    padding: 10px;
+    color: white;
+    font-family: 'Trebuchet MS';
+    margin: 0;
+}
+#prefooter2 {
+    float: left;
+    text-align: center;
+    background-color: #05c3dd;
+    padding: 10px;
+    color: white;
+    margin: 0;
+}
+#prefooter {
+    background-color: #05c3dd;
+    margin: 0;
+    padding: 0;
+}
+footer {
+    text-align: center;
+    background-color: #0033a0;
+    padding: 0px;
+    color: white;
+    font-family: 'Trebuchet MS'
+}
+
+.tiendaitem {
+    background-color: white;
+    border: 2px solid #0033a0;
+    border-radius: 4px;
+    width: 205px;
+    height: 438px;
+    margin: 10px;
+    padding: 5px;
+    float: left;
+}
+.tiendaitem:hover {
+   box-shadow: 10px 10px 5px grey;
+}
+.filaitem{
+    height:10px;
+    margin:0px;
+    padding:0;
+}
+.columnaitem{
+    width:196px;
+    margin:0px;
+}
+.botonagregar {
+    background-color: #0033a0;
+    color: white;
+    border-color: transparent;
+    font-family: 'Trebuchet MS';
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px;
+}
+    .botonagregar:hover {
+        background-color: #05c3dd;
+        color: white;
+        border-color: white;
+    }
+.botonagregar:active {
+    background-color: gray;
+    color: white;
+    border-color: gray;
+}
+.titulotienda {
+    height: 55px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS';
+    color: #05c3dd;
+    text-align: left;
+}
+.cantidadtienda {
+    height: 5px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS';
+    color: gray;
+    text-align:left;
+}
+.categoriatienda {
+    height: 5px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS';
+    color: #0033a0;
+    text-align: left;
+}
+.impuestotienda {
+    height: 5px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS';
+    color: gray;
+    text-align: left;
+}
+.preciotienda {
+    height: 5px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS';
+    color: #0033a0;
+}
+.preciotiendados {
+    height: 5px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS';
+    color: gray;
+    text-align: center;
+}
+.cajacontenedor {
+    margin-top:118px;
+    position:relative;  
+    background-color: white;
+    width:100%;
+    margin-left:0px;
+    margin-right:0;
+    margin-bottom:0;
+}
+center a{
+    display:none;
+}
+.linea{
+    border-top:1px solid black;
+}
+.formulario{
+    padding:10px;
+    width:50%;
+    border-color:black;
+    margin:20px;
+    border-radius:5px;
+    font-family:'Trebuchet MS';
+}
+.baseform{
+    text-align:center;
+}
+.botonsubmit{
+    background-color:black;
+    border-color:black;
+    width:50%;
+    font-family:'Trebuchet MS';
+    color:white;    
+    border-radius:5px;
+    padding:10px;
+}
+.enlaces{
+    text-decoration:none;
+    font-family:'Trebuchet MS';
+    color:darkblue;
+}
+#terminos{
+    margin-right:0px;
+    margin:0;
+    width:80%;    
+    padding:20px;
+    font-family:'Trebuchet MS';
+    color:black;
+}
+.fijador {
+    margin: 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    overflow: hidden;
+}
+
+#mapa {
+    width: 100%;
+    height:500px; 
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.menu{
+    width:2.2rem;
+    height:2.7rem;
+    background-color:black;
+    border-radius:0.5rem;
+    position:absolute;
+    top:50%;
+    left:5%;
+    font-family:'Trebuchet MS';
+    font-size:2rem;
+    color:white;
+    text-align:center;
+    transition: left 0.7s;
+}
+.checkbox:checked ~ .menu{
+    left:40%;
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+.checkbox:checked ~ .leftpanel {
+    left: 0;    
+}
+.checkboxdos:checked ~ .rightpanel {
+    right: 0;
+}
+
+.checkbox{
+    display:none;
+}
+.checkboxdos {
+    display: none;
+}
+ul li {
+    text-align: left;
+    color: white;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    text-decoration: none;
+    list-style: none;
+    padding: 5px;
+}
+
+
+    ul li:hover {
+        color: #05c3dd;
+    }
+ul li:active {
+    color: gray;
+}
+h2 {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    margin: 0;
+    padding: 0;
+}
+h3 {
+    margin: 0;
+    padding: 0;
+}
+h4 {
+    margin: 0;
+    padding: 0;
+}
+h5 {
+    margin: 0;
+    padding: 0;
+}
+#tiendaitem h6 {
+    margin: 0;
+    padding: 0;
+}
+label{
+    margin:0;
+    padding:0;
+}
+#tiendaitem p{
+    height:0;
+    margin:0;
+    padding:0;
+}
+#tiendaitem  p h2 #titulotienda{
+    height:160px;
+}
+#cajatitulo{
+    height:65px;
+}
+.cajafila{
+    height:28px;
+    margin:0;
+    padding:0;
+}
+.cajaprecio {
+    text-align:center;
+    height: 28px;
+    margin: 0;
+    padding: 0;
+}
+.botonsub:hover {
+    color: #0033a0;
+}
+
+.productscontainer{
+    max-width:90%;    
+    margin: 0;
+    padding-top: 20px 5px;
+    color:white;
+    font-family:'Trebuchet MS';
+}
+.productscontainer ion-icon{
+
+}
+.productsheader {
+    width: 100%;  
+    display:flex;
+    justify-content:flex-start;
+    border-bottom: 4px solid;
+    border-bottom-color: lightgray;
+    margin: 0;
+    padding-top: 15px;
+}
+.productslist {
+    width: 100%;
+    display: flex;
+    flex-wrap:wrap;
+}
+.producttitle {
+    width: 45%;
+}
+.productprice {
+    width: 15%;
+    
+}
+.quantity {
+    width: 15%;
+}
+.totalcost {
+    width: 15%;
+}
+.totalcontainer{
+    display:flex;
+    justify-content: flex-end;
+    width:100%;
+    padding:10px 0;
+}
+.totaltitle {
+    width: 30%;
+}
+.totalvalue {
+    width: 10%;
+}
+.product {
+    width: 45%;
+    display: flex;    
+    align-items: center;
+    padding: 10px 0;
+    
+}
+.product ion-icon {
+    cursor: pointer;
+}
+.quantity ion-icon {
+    cursor: pointer;
+}
+.panelbloqueador {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity:0.5;
+    position: fixed;
+    top: 110px;
+    bottom: 0px;
+    right: -100%;    
+    transition: right;
+    z-index: 1;
+}
+.checkboxdos:checked ~ .panelbloqueador {
+    right: 0;
+}
+.panelbloqueadorizq {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.5;
+    position: fixed;
+    top: 110px;
+    bottom: 0px;
+    left: -100%;
+    display: flex;
+    transition: left;
+    z-index: 1;
+}
+.checkbox:checked ~ .panelbloqueadorizq {
+    left: 0;
+}
+.botonfinalizar {
+    text-align: center;
+    background-color: white;
+    border-color: white;
+    width: 50%;
+    font-family: 'Trebuchet MS';
+    color: black;
+    border-radius: 5px;
+    padding: 10px;
+}
+.botonfinalizar:hover{
+    background-color:gray;
+}
+.botoncat{
+
+}
+.direcverif {
+    height: 0px; 
+    overflow: hidden;                                      
+    transition: height 0.5s ease-in; 
+    background-color: white; 
+}
+.delivery:checked ~ .direcverif {
+    height: auto;
+}
+.direccion {
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.5s ease-in;
+    background-color: white;
+}
+
+.deliveryno:checked ~ .direccion {
+    height: auto;
+}
+.metodo {
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.5s ease-in;
+    background-color: white;
+}
+
+
+
+.deliverysi:checked ~ .metodo {
+    height: auto;
+}
+.metodo {
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.5s ease-in;
+    background-color: white;
+}
+
+.pickup:checked ~ .metodo {
+    height: auto;
+}
+.datospago {
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.5s ease-in;
+    background-color: white;
+}
+.pagomovil {
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.5s ease-in;
+    background-color: white;
+}
+.transferencia {
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.5s ease-in;
+    background-color: white;
+}
+.pagodig:checked ~ .pagomovil {
+    height: auto;
+}
+.zelle {
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.5s ease-in;
+    background-color: white;
+}
+
+.pagodigdos:checked ~ .zelle {
+    height: auto;
+}
+.pagodigtres:checked ~ .transferencia {
+    height: auto;
+}
+
+.pagodig:checked ~ .datospago {
+    height: auto;
+}
+.pagodigdos:checked ~ .datospago {
+    height: auto;
+}
+.pagodigtres:checked ~ .datospago {
+    height: auto;
+}
+
+
+.deliveryno:checked ~ .metodo {
+    height: auto;
+}
+.botonconfirma {
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.5s ease-in;
+    background-color: white;
+}
+.pagodig:checked ~ .botonconfirma {
+    height: auto;
+}
+.pagoefectivo {
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.5s ease-in;
+    background-color: white;
+}
+.efectivo:checked ~ .pagoefectivo {
+    height: auto;
+}
+formpago {
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.5s ease-in;
+    background-color: white;
+}
+.pagodig:checked ~ .formpago {
+    height: auto;
+}
+.pagodigdos:checked ~ .formpago {
+    height: auto;
+}
+.pagodigtres:checked ~ .formpago {
+    height: auto;
+}
+.titulocierre {
+    text-decoration: none;
+    font-family: 'Trebuchet MS';
+    color: black;
+    font-weight:bold;
+}
+.opcionescierre {
+    text-decoration: none;
+    font-family: 'Trebuchet MS';
+    color: dimgray;
+    
+}
+.nombrecierre {
+    text-decoration: none;
+    font-family: 'Trebuchet MS';
+    color: #0033a0;
+    font-weight: bold;
+}
+.searchbut{
+    
+}
+#botoncarrito span {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    font-family:'Trebuchet MS';
+    background-color: red;    
+    border-radius: 50%;
+    padding:5px;
+}
+@media(min-width:1200px) {
+    .fijadordos {
+        margin: 0;
+        position: fixed;
+        width: 100%;
+        top: 80px;
+        z-index: 1;
+        overflow: hidden;
+    }
+    .busqueda {
+        margin: 10px 10px 10px 10px;
+        height: 60px;
+        border-radius: 20px 0px 0px 20px;
+        font-size: 18px;
+        font-family: 'Trebuchet MS';
+        font-weight: bold;
+        border-color: #0033a0;
+    }
+    .cajacontenedor {
+        margin-top: 118px;
+        position: relative;
+        background-color: white;
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+    .leftpanel {
+        height: 100%;
+        background-color: #0033a0;
+        position: fixed;
+        top: 110px;
+        bottom: 0px;
+        left: -100%;
+        transition: left;
+        z-index: 2;
+    }
+
+    .rightpanel {
+        height: 100%;
+        background-color: #0033a0;
+        position: fixed;
+        top: 110px;
+        bottom: 0px;
+        right: -100%;
+        transition: right;
+        z-index: 2;
+    }
+    .panelbloqueador {
+        width: 100%;
+        height: 100%;
+        background-color: #05c3dd;
+        opacity: 0.5;
+        position: fixed;
+        top: 110px;
+        bottom: 0px;
+        right: -100%;
+        transition: right;
+        z-index: 1;
+    }
+    .panelbloqueadorizq {
+        width: 100%;
+        height: 100%;
+        background-color: #05c3dd;
+        opacity: 0.5;
+        position: fixed;
+        top: 110px;
+        bottom: 0px;
+        left: -100%;
+        display: flex;
+        transition: left;
+        z-index: 1;
+    }
+}
+@media(max-width:1199px) and (min-width:992px) {
+    .fijadordosL {
+        margin: 0;
+        position: fixed;
+        width: 100%;
+        top: 80px;
+        z-index: 1;
+        overflow: hidden;
+    }
+    .busquedaL {
+        margin: 10px 10px 10px 10px;
+        height: 60px;
+        width: 60%;
+        border-radius: 20px 0px 0px 20px;
+        font-size: 18px;
+        font-family: 'Trebuchet MS';
+        font-weight: bold;
+        border-color: #0033a0;
+    }
+    .cajacontenedorL {
+        margin-top: 118px;
+        position: relative;
+        background-color: white;
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+    .leftpanelL {
+        height: 100%;
+        background-color: #0033a0;
+        position: fixed;
+        top: 110px;
+        bottom: 0px;
+        left: -100%;
+        transition: left;
+        z-index: 2;
+    }
+
+    .rightpanelL {
+        height: 100%;
+        background-color: #0033a0;
+        position: fixed;
+        top: 110px;
+        bottom: 0px;
+        right: -100%;
+        transition: right;
+        z-index: 2;
+    }
+    .panelbloqueadorL {
+        width: 100%;
+        height: 100%;
+        background-color: #05c3dd;
+        opacity: 0.5;
+        position: fixed;
+        top: 110px;
+        bottom: 0px;
+        right: -100%;
+        transition: right;
+        z-index: 1;
+    }
+
+    .panelbloqueadorizqL {
+        width: 100%;
+        height: 100%;
+        background-color: #05c3dd;
+        opacity: 0.5;
+        position: fixed;
+        top: 110px;
+        bottom: 0px;
+        left: -100%;
+        display: flex;
+        transition: left;
+        z-index: 1;
+    }
+}
+@media(max-width:991px) and (min-width:768px) {
+    .fijadordosM {
+        margin: 0;
+        position: fixed;
+        width: 100%;
+        top: 90px;
+        z-index: 1;
+        overflow: hidden;
+    }
+    .busquedaM {
+        margin: 10px 10px 10px 10px;
+        height: 60px;
+        width: 60%;
+        border-radius: 20px 0px 0px 20px;
+        font-size: 18px;
+        font-family: 'Trebuchet MS';
+        font-weight: bold;
+        border-color: #0033a0;
+    }
+    .cajacontenedorM {
+        margin-top: 128px;
+        position: relative;
+        background-color: white;
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+    .leftpanelM {
+        height: 100%;
+        background-color: #0033a0;
+        position: fixed;
+        top: 120px;
+        bottom: 0px;
+        left: -100%;
+        transition: left;
+        z-index: 2;
+    }
+
+    .rightpanelM {
+        height: 100%;
+        background-color: #0033a0;
+        position: fixed;
+        top: 120px;
+        bottom: 0px;
+        right: -100%;
+        transition: right;
+        z-index: 2;
+    }
+    .panelbloqueadorM {
+        width: 100%;
+        height: 100%;
+        background-color: #05c3dd;
+        opacity: 0.5;
+        position: fixed;
+        top: 120px;
+        bottom: 0px;
+        right: -100%;
+        transition: right;
+        z-index: 1;
+    }
+
+    .panelbloqueadorizqM {
+        width: 100%;
+        height: 100%;
+        background-color: #05c3dd;
+        opacity: 0.5;
+        position: fixed;
+        top: 120px;
+        bottom: 0px;
+        left: -100%;
+        display: flex;
+        transition: left;
+        z-index: 1;
+    }
+}
+@media(max-width:767px) {
+    .fijadordosS {
+        margin: 0;
+        position: fixed;
+        width: 100%;
+        top: 140px;
+        z-index: 1;
+        overflow: hidden;
+    }
+    .busquedaS {
+        margin: 10px 10px 10px 10px;
+        height: 60px;
+        width: 80%;
+        border-radius: 20px 0px 0px 20px;
+        font-size: 18px;
+        font-family: 'Trebuchet MS';
+        font-weight: bold;
+        border-color: #0033a0;
+    }
+    .cajacontenedorS {
+        margin-top: 178px;
+        position: relative;
+        background-color: white;
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+    .leftpanelS {
+        height: 100%;
+        background-color: #0033a0;
+        position: fixed;
+        top: 170px;
+        bottom: 0px;
+        left: -100%;
+        transition: left;
+        z-index: 2;
+    }
+
+    .rightpanelS {
+        height: 100%;
+        background-color: #0033a0;
+        position: fixed;
+        top: 170px;
+        bottom: 0px;
+        right: -100%;
+        transition: right;
+        z-index: 2;
+    }
+    .panelbloqueadorS {
+        width: 100%;
+        height: 100%;
+        background-color: #05c3dd;
+        opacity: 0.5;
+        position: fixed;
+        top: 170px;
+        bottom: 0px;
+        right: -100%;
+        transition: right;
+        z-index: 1;
+    }
+
+    .panelbloqueadorizqS {
+        width: 100%;
+        height: 100%;
+        background-color: #05c3dd;
+        opacity: 0.5;
+        position: fixed;
+        top: 170px;
+        bottom: 0px;
+        left: -100%;
+        display: flex;
+        transition: left;
+        z-index: 1;
+    }
+}
+
+
+
